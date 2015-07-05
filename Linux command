@@ -1,0 +1,4 @@
+make <filename> [Compile the file and make an executable file <filename>]
+./<filename> [Run executable file] 
+clang <filename.c> [Compile the file and make a.out as the Object file]
+mv <from directory> <to directory> [move a file from this directory to another directory]
