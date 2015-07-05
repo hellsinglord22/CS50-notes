@@ -8,3 +8,7 @@ mv <from directory> <to directory> [move a file from this directory to another d
 
 xdg-open <url> [open this url in the browser]
 
+
+clang -o <output filename> <filename.c>
+
+clang -l<librarname>
