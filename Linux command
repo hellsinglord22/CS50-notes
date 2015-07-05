@@ -12,3 +12,9 @@ xdg-open <url> [open this url in the browser]
 clang -o <output filename> <filename.c>
 
 clang -l<librarname>
+
+[Running a .deb file]
+dpkg -i package-name-here.deb
+dpkg --install package-name-here.deb
+dpkg -i -R /path/to/dir/name/with/lots/of/dot-deb-files/
+dpkg -i --recursive /path/to/dir/name/with/lots/of/dot-deb-files/
